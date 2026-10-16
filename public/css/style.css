@@ -1,0 +1,148 @@
+/* Todo centrado: el texto del body se centra y la tabla se centra con margin auto */
+body {
+    font-family: Arial, sans-serif;
+    background: #e8e4d8;
+    text-align: center;
+}
+
+h1 {
+    color: #5a5a2e;
+}
+
+/* Botones: un poco más cómodos de clickear */
+button {
+    padding: 8px 16px;
+    background: #8a9a3b;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #6f7d2d;
+}
+
+/* Campos del formulario */
+input, select {
+    padding: 6px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+/* El modal (dialog) ya sale centrado en pantalla, aquí solo lo adornamos */
+dialog {
+    border: 2px solid #8a9a3b;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+
+/* margin: 0 auto es lo que centra la tabla en la página */
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+/* Encabezado de la tabla: verde oliva medio feo */
+th {
+    background: #8a9a3b;
+    color: white;
+}
+
+th, td {
+    padding: 8px 14px;
+    border: 1px solid #b5b07a;
+}
+
+/* Filas alternadas en amarillo pálido, también medio feo */
+tbody tr:nth-child(even) {
+    background: #f1ebb8;
+}
+
+.ok {
+    color: green;
+}
+.error {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+    box-sizing: border-box; 
+}
+body { 
+    font-family: Arial, sans-serif; 
+    background: #f4f6f8; 
+    margin: 0; 
+}
+main { 
+    max-width: 800px; 
+    margin: 30px auto; 
+    padding: 0 16px; 
+}
+form { 
+    display: flex; 
+    gap: 8px; 
+    flex-wrap: wrap; 
+    margin-bottom: 12px; 
+}
+input { 
+    flex: 1; 
+    min-width: 150px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+button { 
+    padding: 10px 20px; 
+    background: #2563eb; 
+    color: #fff; 
+    border: 0; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+button:hover { 
+    background: #1d4ed8; 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    background: #fff; 
+}
+th, td { 
+    padding: 10px; 
+    border-bottom: 1px solid #e5e7eb; 
+    text-align: left; 
+}
+th { 
+    background: #2563eb; 
+    color: #fff; 
+}
+.ok { 
+    color: #15803d; 
+}
+.error { 
+    color: #b91c1c; 
+}*/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de personas</title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+  <h1>Registro de personas</h1>
+
+  <button id="btnCrear">Crear usuario</button>
+
+  <!-- <dialog> es un modal que ya trae el navegador, no necesita librerías -->
+  <dialog id="modal">
+    <h2>Nuevo usuario</h2>
+    <form id="formulario">
+      Nombre: <input type="text" name="nombre"><br><br>
+      Cédula: <input type="text" name="cedula"><br><br>
+      Correo: <input type="email" name="correo"><br><br>
+      Teléfono: <input type="tel" name="telefono"><br><br>
+      Municipio: <select name="municipio" id="municipio"></select><br><br>
+      <button type="submit">Guardar</button>
+      <button type="button" id="btnCerrar">Cancelar</button>
+    </form>
+    <p id="mensaje"></p>
+  </dialog>
+
+  <br><br>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>ID</th><th>Nombre</th><th>Cédula</th><th>Correo</th>
+        <th>Teléfono</th><th>Municipio</th><th>Fecha</th>
+      </tr>
+    </thead>
+    <tbody id="tabla"></tbody>
+  </table>
+
+  <script src="public/js/app.js"></script>
+</body>
+</html>
